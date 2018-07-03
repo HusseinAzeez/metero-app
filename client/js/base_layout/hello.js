@@ -12,7 +12,7 @@ Template.hello.helpers({
   });
   
   Template.hello.events({
-    'click .btn-1'(event, instance) {
-      Interface.doSomething()
+    'click .btn-1'() {
+    Interface.doSomething()
     },
   });
